@@ -52,3 +52,14 @@ $ kubectl get -n <namespace>
 $
 ````
 
+ 1. Get nodes: `kubectl get nodes`
+ 2. Get pods: `kubectl get pods`
+ 3. Get deployments: `kubectl get deployments`
+ 4. Get services: `kubectl get svc`
+ 5. Create a deployment: `kubectl create deployment <deployment_name> --image=<image_name>`
+ 6. Apply a configuration: `kubectl apply -f <config_file>`
+ 7. Get pod logs: `kubectl logs <pod_name>`
+ 8. Exec into a pod: `kubectl exec -it <pod_name> -- /bin/bash`
+ 9. Scale a deployment: `kubectl scale deployment <deployment_name> --replicas=<replica_count>`
+ 10.Delete a po: `kubectl delete pod <pod_name>`
+
